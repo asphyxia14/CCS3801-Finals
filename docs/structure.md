@@ -24,16 +24,25 @@
     - BunsSection.vue
     - SidesSection.vue          # Tacos, Fries, Chicken pops
     - BeveragesSection.vue      # Coffee & Fruit drinks
-    - DessertsSection.vue        # Affogato & Sweets
-    - CombosSection.vue          # Bun + Drink pairings
+    <!-- - DessertsSection.vue        # Affogato & Sweets
+    - CombosSection.vue          # Bun + Drink pairings -->
 
     ## ABOUT (AboutView.vue)
     - AboutHeroSection.vue
-    - HistoryStorySection.vue
-    - CraftIngredientsSection.vue
+    <!-- - HistoryStorySection.vue
+    - CraftIngredientsSection.vue -->
     - MeetTheTeamSection.vue
     - VibeGallerySection.vue
 
+    ## REVIEWS (ReviewsView.vue)
+    ReviewsView.vue (Community & Feedback)
+
+    • Purpose: Displays customer testimonials and community ratings for their buns and drinks.
+    • Key Features:
+    • Overall rating summary (e.g., 4.8 ★ / 5 from local coffee lovers).
+    • List/grid of customer reviews with tags like "Best Affogato in town" or "Mexican Beef Bun is a
+    must-try".
+    • An interactive "Leave a Review" form (great for demonstrating Vue form handling and validation).
     ---
 
     # REUSABLE COMPONENTS
