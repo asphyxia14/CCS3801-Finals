@@ -35,7 +35,7 @@ const reviews = [
     <!-- Top Hero Banner with Image -->
     <div class="banner-wrapper">
       <img
-        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+        src="/src/assets/photos/IMG_9952.JPG"
         alt="Beans & Buns Cafe Interior"
         class="banner-image"
       />
@@ -53,8 +53,8 @@ const reviews = [
           <span class="summary-star">★</span>
         </div>
         <div class="summary-details">
-          <p class="summary-title">Overall Customer Rating</p>
-          <p class="summary-meta">Based on 120+ verified reviews from local foodies</p>
+          <p class="summary-title">Customer Rating</p>
+          <p class="summary-meta">Based on actual people,</p>
         </div>
       </div>
     </section>
@@ -101,7 +101,12 @@ const reviews = [
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(35, 21, 13, 0.85) 0%, rgba(35, 21, 13, 0.3) 60%, transparent 100%);
+  background: linear-gradient(
+    to top,
+    rgba(35, 21, 13, 0.85) 0%,
+    rgba(35, 21, 13, 0.3) 60%,
+    transparent 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
