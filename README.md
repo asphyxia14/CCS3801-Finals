@@ -45,9 +45,9 @@
 
 - [ ] Navbar.vue
 - [ ] Footer.vue
-- [ ] ItemCard.vue # Used across Menu & Featured sections
-- [ ] ReviewCard.vue # Used for testimonials
-- [ ] BaseButton.vue
+- [x] ItemCard.vue # Used across Menu & Featured sections
+- [x] ReviewCard.vue # Used for testimonials
+- [x] BaseButton.vue
 
 # vue-project
 
