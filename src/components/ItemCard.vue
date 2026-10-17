@@ -9,38 +9,88 @@ defineProps<{
 
 <template>
   <div class="item-card">
-    <img v-if="imageUrl" :src="imageUrl" :alt="title" class="item-image" />
-    <h3 class="item-title">{{ title }}</h3>
-    <p class="item-description">{{ description }}</p>
-    <p class="item-price">₱{{ price }}</p>
+    <div v-if="imageUrl" class="item-image-wrapper">
+      <img :src="imageUrl" :alt="title" class="item-image" />
+    </div>
+    <div class="item-body">
+      <div class="item-header">
+        <h3 class="item-title">{{ title }}</h3>
+        <span class="item-price">₱{{ price }}</span>
+      </div>
+      <p class="item-description">{{ description }}</p>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .item-card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #ebdcd0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(43, 24, 16, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(43, 24, 16, 0.1);
+  border-color: #dfcfc2;
+}
+
+.item-image-wrapper {
+  width: 100%;
+  height: 180px;
+  background-color: #f7f1ea;
+  overflow: hidden;
 }
 
 .item-image {
   width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 8px;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.item-card:hover .item-image {
+  transform: scale(1.03);
+}
+
+.item-body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .item-title {
-  margin: 0 0 8px;
-}
-
-.item-description {
-  margin: 0 0 8px;
-  color: #555;
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2b1810;
 }
 
 .item-price {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #c86d27;
+  white-space: nowrap;
+}
+
+.item-description {
   margin: 0;
-  font-weight: bold;
+  color: #6d5b51;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 </style>

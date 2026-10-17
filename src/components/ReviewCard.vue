@@ -8,29 +8,100 @@ defineProps<{
 
 <template>
   <div class="review-card">
-    <h3 class="author">{{ author }}</h3>
-    <p class="rating">Rating: {{ rating }}/5</p>
-    <p class="comment">{{ comment }}</p>
+    <div class="review-header">
+      <div class="author-avatar">
+        {{ author ? author.charAt(0).toUpperCase() : '?' }}
+      </div>
+      <div class="author-info">
+        <h3 class="author-name">{{ author }}</h3>
+        <div class="rating-stars" :aria-label="`Rating ${rating} out of 5`">
+          <span
+            v-for="star in 5"
+            :key="star"
+            class="star"
+            :class="{ 'star-filled': star <= Number(rating) }"
+          >
+            ★
+          </span>
+        </div>
+      </div>
+    </div>
+    <p class="review-comment">"{{ comment }}"</p>
   </div>
 </template>
 
 <style scoped>
 .review-card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #ebdcd0;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(43, 24, 16, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.author {
-  margin: 0 0 8px;
+.review-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(43, 24, 16, 0.09);
+  border-color: #dfcfc2;
 }
 
-.rating {
-  margin: 0 0 8px;
-  font-weight: bold;
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.comment {
+.author-avatar {
+  width: 42px;
+  height: 42px;
+  background-color: #f5ebe1;
+  color: #c86d27;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-name {
   margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2b1810;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 2px;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.star {
+  color: #e3d7cd;
+}
+
+.star-filled {
+  color: #f59e0b;
+}
+
+.review-comment {
+  margin: 0;
+  color: #4a3b32;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-style: italic;
 }
 </style>
