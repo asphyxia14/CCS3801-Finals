@@ -25,12 +25,12 @@
     - SidesSection.vue          # Tacos, Fries, Chicken pops
     - BeveragesSection.vue      # Coffee & Fruit drinks
     <!-- - DessertsSection.vue        # Affogato & Sweets
-    - CombosSection.vue          # Bun + Drink pairings -->
+    - CombosSection.vue          # Bun + Drink pairings --> (Can be excluded)
 
     ## ABOUT (AboutView.vue)
     - AboutHeroSection.vue
     <!-- - HistoryStorySection.vue
-    - CraftIngredientsSection.vue -->
+    - CraftIngredientsSection.vue --> (Can be excluded)
     - MeetTheTeamSection.vue
     - VibeGallerySection.vue
 
