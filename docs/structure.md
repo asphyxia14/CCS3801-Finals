@@ -1,11 +1,11 @@
 # VIEWS (5 Total)
 
-    ## Multi-Section Views (3)
+    ## Multi-Section View
     - HomeView.vue
     - MenuView.vue
     - AboutView.vue
 
-    ## Focused Views (2)
+    ## Focused View
     - ReviewsView.vue
     - ContactView.vue
 

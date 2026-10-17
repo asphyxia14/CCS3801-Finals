@@ -1,3 +1,9 @@
+# Contributions:
+
+- Francyn - AboutView, ContactView
+- Matyu - MenuView, ReviewsView, Components
+- DJ - HomeView, Navbar
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
