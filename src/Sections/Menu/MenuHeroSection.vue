@@ -1,9 +1,11 @@
 <script setup lang="ts">
-const categories = [
-  { name: 'Specialty Buns', href: '#buns' },
-  { name: 'Snacks & Sides', href: '#sides' },
-  { name: 'Coffee & Drinks', href: '#beverages' },
-]
+// Script function to smoothly scroll to any section by element ID
+function scrollToSection(sectionId: string) {
+  const element = document.getElementById(sectionId)
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
 
 <template>
@@ -15,15 +17,31 @@ const categories = [
         Explore our gourmet hotdog buns baked fresh daily, perfectly paired with artisanal espresso and savory sides.
       </p>
 
+      <!-- Category Navigation Buttons hardcoded directly in template -->
       <nav class="category-nav">
-        <a
-          v-for="cat in categories"
-          :key="cat.name"
-          :href="cat.href"
+        <button
+          type="button"
           class="category-pill"
+          @click="scrollToSection('buns')"
         >
-          {{ cat.name }}
-        </a>
+          Specialty Buns
+        </button>
+
+        <button
+          type="button"
+          class="category-pill"
+          @click="scrollToSection('sides')"
+        >
+          Snacks & Sides
+        </button>
+
+        <button
+          type="button"
+          class="category-pill"
+          @click="scrollToSection('beverages')"
+        >
+          Coffee & Drinks
+        </button>
       </nav>
     </div>
   </section>
@@ -76,7 +94,6 @@ const categories = [
 }
 
 .category-pill {
-  text-decoration: none;
   background-color: #ffffff;
   color: #2b1810;
   border: 1.5px solid #ebdcd0;
@@ -84,6 +101,8 @@ const categories = [
   border-radius: 9999px;
   font-weight: 600;
   font-size: 0.95rem;
+  font-family: inherit;
+  cursor: pointer;
   transition: all 0.2s ease;
   box-shadow: 0 2px 6px rgba(43, 24, 16, 0.04);
 }

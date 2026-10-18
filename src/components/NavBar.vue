@@ -13,9 +13,9 @@
       <li class="nav-item">
         <a href="/about" class="nav-link">About</a>
       </li>
-        <li class="nav-item">
-            <a href="/reviews" class="nav-link">Reviews</a>
-        </li>
+      <li class="nav-item">
+        <a href="/reviews" class="nav-link">Reviews</a>
+      </li>
       <li class="nav-item">
         <a href="/contact" class="nav-link">Contact</a>
       </li>
@@ -23,9 +23,7 @@
   </nav>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 .navbar {
