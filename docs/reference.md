@@ -61,8 +61,6 @@ Use the insights from your interview with the owner and staff here:
 • AboutHeroSection.vue: Intro banner with a warm shot of the cafe interior.
 • HistoryStorySection.vue: The origin story—how the concept of gourmet hotdog buns combined with
 specialty coffee came to life.
-• CraftIngredientsSection.vue: Highlights bean sourcing, freshly prepared toppings, and house-made
-sauces.
 • MeetTheTeamSection.vue: Profile cards of the owner, head barista, and kitchen crew (from your
 interview!).
 • VibeGallerySection.vue: Photo grid showing the cozy ambiance, customer seating, study friendly spots,
