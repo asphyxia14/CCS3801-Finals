@@ -13,7 +13,7 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: () => import('../views/ReviewsView.vue'),
+    component: () => import('../views/AboutView.vue'),
   },
   {
     path: '/menu',
@@ -28,7 +28,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: () => import('../views/ReviewsView.vue'),
+    component: () => import('../views/ContactView.vue'),
   },
 ]
 
