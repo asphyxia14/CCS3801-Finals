@@ -9,9 +9,9 @@
 # VIEWS
 
 - [ ] HomeView [Deejay]
-- [ ] MenuView [Matthew]
+- [x] MenuView [Matthew]
 - [ ] AboutView [Francyn]
-- [ ] ReviewsView [Matthew]
+- [x] ReviewsView [Matthew]
 - [ ] ContactView [Francyn]
 - [ ] Components [Matthew, Deejay]
 
@@ -21,7 +21,6 @@
 
 - HeroSection.vue
 - FeaturedSpecialsSection.vue
-- AboutTeaserSection.vue
 - StoreHoursBanner.vue
 
 ## MENU (MenuView.vue)
@@ -30,14 +29,10 @@
 - BunsSection.vue
 - SidesSection.vue # Tacos, Fries, Chicken pops
 - BeveragesSection.vue # Coffee & Fruit drinks
-- DessertsSection.vue # Affogato & Sweets
-- CombosSection.vue # Bun + Drink pairings
 
 ## ABOUT (AboutView.vue)
 
 - AboutHeroSection.vue
-- HistoryStorySection.vue
-- CraftIngredientsSection.vue
 - MeetTheTeamSection.vue
 - VibeGallerySection.vue
 

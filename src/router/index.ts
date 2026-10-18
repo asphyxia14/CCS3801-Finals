@@ -2,27 +2,27 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'home',
     component: () => import('../views/HomeView.vue'),
   },
   {
-    path: '/',
+    path: '/about',
     name: 'about',
     component: () => import('../views/ReviewsView.vue'),
   },
   {
-    path: '/',
+    path: '/menu',
     name: 'menu',
-    component: () => import('../views/ReviewsView.vue'),
+    component: () => import('../views/MenuView.vue'),
   },
   {
-    path: '/',
+    path: '/reviews',
     name: 'reviews',
     component: () => import('../views/ReviewsView.vue'),
   },
   {
-    path: '/',
+    path: '/contact',
     name: 'contact',
     component: () => import('../views/ReviewsView.vue'),
   },
