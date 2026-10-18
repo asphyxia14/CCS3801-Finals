@@ -1,11 +1,19 @@
 <script setup lang="ts">
-import FeaturedSection from '@/Sections/Home/FeaturedSection.vue'
-import HeroSection from '@/Sections/Home/HeroSection.vue'
+// import NavBar from '@/components/NavBar.vue'
+import StoreHoursBannerSection from '@/Sections/Home/StoreHoursBannerSection.vue';
+
+
+// const scrollToSection = (id) => {
+//   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+// }
 </script>
 
+
+
 <template>
-  <section>
-    <HeroSection />
-    <FeaturedSection />
-  </section>
+  <div class="home">
+    <!-- <NavBar @navigate="scrollToSection" /> -->
+    <StoreHoursBannerSection />
+  </div>
 </template>
+
