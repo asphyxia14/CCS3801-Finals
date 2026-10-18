@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div class="menu">
         <div>
             <div class="menu-items">
@@ -11,16 +11,20 @@
         </div>
     </div>
 </template>
+
 <script setup>
 defineEmits(['navigate']);
 </script>
-.menu {
-    position: fixed;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  font-size: 30px;
-  padding: 0 20px;
-} -->
+<style scoped>
+    
+    .menu {
+        position: fixed;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      font-size: 30px;
+      padding: 0 20px;
+    }
+</style>
