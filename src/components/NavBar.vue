@@ -19,6 +19,9 @@
       <li class="nav-item">
         <a href="/contact" class="nav-link">Contact</a>
       </li>
+      <li class="nav-item">
+        <a href="/reviews" class="nav-link">Reviews</a>
+      </li>
     </ul>
   </nav>
 </template>
@@ -40,6 +43,10 @@
   height: 50px;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+}
 .nav-menu {
   list-style: none;
   display: flex;

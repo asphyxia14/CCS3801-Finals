@@ -36,7 +36,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../../assets/photos/kopiiko.jpg');
+  background-image: url('@/assets/photos/IMG_9768.JPG');
   background-size: cover;
   background-position: center;
   opacity: 0.3; /* This makes the image translucent */
