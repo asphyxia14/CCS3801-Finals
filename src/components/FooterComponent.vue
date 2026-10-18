@@ -1,14 +1,13 @@
-<script setup lang="ts">
-// Static footer
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <footer class="footer">
+  <footer class="footer-component">
     <div class="footer-container">
       <div class="footer-col brand-col">
         <h3 class="footer-brand">Beans & Buns</h3>
         <p class="brand-text">
-          Fresh gourmet hotdog buns & specialty handcrafted coffee. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fresh gourmet hotdog buns & specialty handcrafted coffee. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
         </p>
       </div>
 
@@ -32,7 +31,7 @@
 </template>
 
 <style scoped>
-.footer {
+.footer-component {
   background-color: #23150d;
   color: #d6c8bd;
   border-top: 4px solid #c86d27;
