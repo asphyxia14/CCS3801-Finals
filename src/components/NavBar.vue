@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="nav-brand">
-      <h1>Kopiiko</h1>
+      <img src="@/assets/photos/bnblogo.jpg" alt="logo" class="logo" />
     </div>
     <ul class="nav-menu">
       <li class="nav-item">
@@ -15,6 +15,9 @@
       </li>
       <li class="nav-item">
         <a href="/contact" class="nav-link">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a href="/reviews" class="nav-link">Reviews</a>
       </li>
     </ul>
   </nav>
@@ -38,6 +41,10 @@
   margin: 0;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+}
 .nav-menu {
   list-style: none;
   display: flex;
