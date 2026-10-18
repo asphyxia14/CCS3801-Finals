@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="nav-brand">
-      <h1>Kopiiko</h1>
+      <img src="../assets/photos/b&b.jpg" alt="B&B Logo" class="store-logo" />
     </div>
     <ul class="nav-menu">
       <li class="nav-item">
@@ -36,9 +36,8 @@
   align-items: center;
 }
 
-.nav-brand h1 {
-  color: #d7ccc8;
-  margin: 0;
+.nav-brand img {
+  height: 50px;
 }
 
 .nav-menu {

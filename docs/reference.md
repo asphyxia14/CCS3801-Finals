@@ -36,8 +36,8 @@ and the Buns:
 quick call-to-action buttons ("Explore Menu" & "Visit Us").
 • FeaturedSpecialsSection.vue: Spotlights 3–4 signature favorites (e.g., Mexican Beef Bun, Affogato,
 Signature Iced Coffee, Crispy Chicken Pops).
-• AboutTeaserSection.vue: Short highlight introducing Beans & Buns’ vibe and story with a "Read Our
-Story" button linking to About.
+<!-- • AboutTeaserSection.vue: Short highlight introducing Beans & Buns’ vibe and story with a "Read Our
+Story" button linking to About. -->
 • StoreHoursLocationBanner.vue: Quick visual bar with opening hours, location address, and dining
 options (Dine-in / Takeout / Wifi available).
 
