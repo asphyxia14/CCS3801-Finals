@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// Script function to smoothly scroll to any section by element ID
 function scrollToSection(sectionId: string) {
   const element = document.getElementById(sectionId)
   if (element) {
@@ -17,29 +16,14 @@ function scrollToSection(sectionId: string) {
         Explore our gourmet hotdog buns baked fresh daily, perfectly paired with artisanal espresso and savory sides.
       </p>
 
-      <!-- Category Navigation Buttons hardcoded directly in template -->
       <nav class="category-nav">
-        <button
-          type="button"
-          class="category-pill"
-          @click="scrollToSection('buns')"
-        >
+        <button type="button" class="category-pill" @click="scrollToSection('buns')">
           Specialty Buns
         </button>
-
-        <button
-          type="button"
-          class="category-pill"
-          @click="scrollToSection('sides')"
-        >
+        <button type="button" class="category-pill" @click="scrollToSection('sides')">
           Snacks & Sides
         </button>
-
-        <button
-          type="button"
-          class="category-pill"
-          @click="scrollToSection('beverages')"
-        >
+        <button type="button" class="category-pill" @click="scrollToSection('beverages')">
           Coffee & Drinks
         </button>
       </nav>

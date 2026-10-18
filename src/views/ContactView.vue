@@ -1,4 +1,3 @@
-
 <template>
   <section class="contact">
     <h1>Contact Us</h1>

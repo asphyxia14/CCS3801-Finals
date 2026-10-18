@@ -3,7 +3,6 @@ import MenuHeroSection from '@/Sections/Menu/MenuHeroSection.vue'
 import BunsSection from '@/Sections/Menu/BunsSection.vue'
 import SidesSection from '@/Sections/Menu/SidesSection.vue'
 import BeveragesSection from '@/Sections/Menu/BeveragesSection.vue'
-import Footer from '@/components/FooterComponent.vue'
 </script>
 
 <template>
@@ -15,8 +14,6 @@ import Footer from '@/components/FooterComponent.vue'
       <SidesSection />
       <div class="section-divider"></div>
       <BeveragesSection />
-      <div class="section-divider"></div>
-      <Footer />
     </div>
   </main>
 </template>

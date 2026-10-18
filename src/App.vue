@@ -12,7 +12,6 @@ import FooterComponent from './components/FooterComponent.vue'
 </template>
 
 <style>
-/* Global smooth scroll and base styles */
 html {
   scroll-behavior: smooth;
 }

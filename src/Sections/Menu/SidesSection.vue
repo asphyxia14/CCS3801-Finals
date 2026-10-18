@@ -1,36 +1,5 @@
 <script setup lang="ts">
 import ItemCard from '@/components/ItemCard.vue'
-
-const sides = [
-  {
-    id: 1,
-    title: 'Crispy Chicken Pops',
-    description: 'Golden bite-sized tender chicken pieces tossed in special paprika seasoning, served with garlic dip.',
-    price: 110,
-    imageUrl: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    id: 2,
-    title: 'Seasoned Crinkle Fries',
-    description: 'Crispy crinkle-cut fries seasoned with sea salt, rosemary, and smoked herbs.',
-    price: 85,
-    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    id: 3,
-    title: 'Street Beef Tacos (2 pcs)',
-    description: 'Warm soft tortillas stuffed with seasoned shredded beef, fresh pico de gallo, and zesty lime crema.',
-    price: 125,
-    imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    id: 4,
-    title: 'Loaded Cheesy Nachos',
-    description: 'Crispy corn tortilla chips blanketed in warm queso, sliced jalapeños, and fresh salsa.',
-    price: 115,
-    imageUrl: 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=600&q=80',
-  },
-]
 </script>
 
 <template>
@@ -44,12 +13,31 @@ const sides = [
 
     <div class="items-grid">
       <ItemCard
-        v-for="item in sides"
-        :key="item.id"
-        :title="item.title"
-        :description="item.description"
-        :price="item.price"
-        :image-url="item.imageUrl"
+        title="Crispy Chicken Pops"
+        description="Golden bite-sized tender chicken pieces tossed in special paprika seasoning, served with garlic dip."
+        price="110"
+        image-url="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=600&q=80"
+      />
+
+      <ItemCard
+        title="Seasoned Crinkle Fries"
+        description="Crispy crinkle-cut fries seasoned with sea salt, rosemary, and smoked herbs."
+        price="85"
+        image-url="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80"
+      />
+
+      <ItemCard
+        title="Street Beef Tacos (2 pcs)"
+        description="Warm soft tortillas stuffed with seasoned shredded beef, fresh pico de gallo, and zesty lime crema."
+        price="125"
+        image-url="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80"
+      />
+
+      <ItemCard
+        title="Loaded Cheesy Nachos"
+        description="Crispy corn tortilla chips blanketed in warm queso, sliced jalapeños, and fresh salsa."
+        price="115"
+        image-url="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=600&q=80"
       />
     </div>
   </section>
@@ -58,7 +46,7 @@ const sides = [
 <style scoped>
 .menu-section {
   padding: 40px 16px;
-  scroll-margin-top: 40px;
+  scroll-margin-top: 80px;
 }
 
 .section-header {

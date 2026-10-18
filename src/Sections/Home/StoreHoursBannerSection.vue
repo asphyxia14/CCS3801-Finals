@@ -16,17 +16,19 @@
 </template>
 
 <style scoped>
+/* Coffee-themed banner container */
 .store-hours-banner {
   position: relative;
-  background-color: #3e2723;
+  background-color: #3e2723; /* fallback color */
   color: #efebe9;
   padding: 80px 20px;
   text-align: center;
   border-top: 8px solid #5d4037;
   border-bottom: 8px solid #5d4037;
-  overflow: hidden;
+  overflow: hidden; /* Ensures the background image doesn't bleed out */
 }
 
+/* Translucent background image using a pseudo-element */
 .store-hours-banner::before {
   content: "";
   position: absolute;
@@ -37,26 +39,26 @@
   background-image: url('@/assets/photos/IMG_9768.JPG');
   background-size: cover;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.3; /* This makes the image translucent */
   z-index: 1;
 }
 
 .banner-content {
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Ensures text stays above the background image */
   max-width: 600px;
   margin: 0 auto;
   border: 2px solid #8d6e63;
   padding: 40px;
   border-radius: 15px;
-  background-color: rgba(62, 39, 35, 0.7); 
+  background-color: rgba(62, 39, 35, 0.7); /* Darker semi-transparent overlay for text readability */
 }
 
 .store-logo {
-  width: 100px; 
+  width: 100px; /* Adjust size of your logo */
   height: auto;
   margin-bottom: 0.5px;
-  border-radius: 25%;
+  border-radius: 25%; /* Optional: removes sharp corners if it's a square logo */
 }
 
 h2 {
@@ -70,7 +72,7 @@ h2 {
 
 
 .hours-details {
-  background-color: #5d4037;
+  background-color: #5d4037; /* Medium Brown background for the box */
   padding: 25px;
   border-radius: 8px;
   display: inline-block;
@@ -103,8 +105,10 @@ h2 {
   color: #bcaaa4;
 }
 
+/* Simple hover effect to make it interactive */
 .banner-content:hover {
   border-color: #d7ccc8;
   transition: 0.3s;
 }
 </style>
+

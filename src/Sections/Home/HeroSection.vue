@@ -34,11 +34,14 @@ import { RouterLink } from 'vue-router'
   justify-content: center;
   overflow: hidden;
   background-color: #2b1810;
+  /* Hero Image Background */
   background-image: url('../../assets/photos/heroimage.jpg');
   background-size: cover;
   background-position: center;
+  /* margin-bottom: 5px; */
 }
 
+/* Translucent overlay for text readability, matching ReviewsView style */
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -57,7 +60,7 @@ import { RouterLink } from 'vue-router'
   max-width: 1200px;
   padding: 0 24px;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 48px; /* Space below the hero section */
 }
 
 .hero-content {
@@ -68,7 +71,7 @@ import { RouterLink } from 'vue-router'
 
 .hero-title {
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 800; /* Bold as requested */
   line-height: 1.1;
   margin-bottom: 16px;
   letter-spacing: -0.02em;
@@ -93,6 +96,7 @@ import { RouterLink } from 'vue-router'
   flex-wrap: wrap;
 }
 
+/* Base Button Styles */
 .hero-btn {
   padding: 16px 36px;
   font-size: 1.1rem;
@@ -103,11 +107,13 @@ import { RouterLink } from 'vue-router'
   border: 2px solid transparent;
 }
 
+/* Primary: Cream/Light Theme */
 .primary-btn {
   background-color: #f5ebe1;
   color: #2b1810;
 }
 
+/* Secondary: Transparent/Glass Theme */
 .secondary-btn {
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
@@ -115,9 +121,10 @@ import { RouterLink } from 'vue-router'
   border: 2px solid rgba(245, 235, 225, 0.3);
 }
 
+/* Edge Highlight Hover Effect */
 .hero-btn:hover {
   transform: translateY(-3px);
-  border-color: #ffffff;
+  border-color: #ffffff; /* Highlights the edge */
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
@@ -130,6 +137,7 @@ import { RouterLink } from 'vue-router'
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Responsive adjustments */
 @media (max-width: 600px) {
   .hero-section {
     min-height: 70vh;

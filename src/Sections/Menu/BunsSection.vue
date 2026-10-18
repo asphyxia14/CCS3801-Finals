@@ -11,7 +11,6 @@ import ItemCard from '@/components/ItemCard.vue'
       </p>
     </div>
 
-    <!-- Hardcoded item cards directly in template -->
     <div class="items-grid">
       <ItemCard
         title="Mexican Beef Bun"

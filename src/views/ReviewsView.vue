@@ -1,39 +1,12 @@
 <script setup lang="ts">
 import ReviewCard from '@/components/ReviewCard.vue'
-
-const reviews = [
-  {
-    id: 1,
-    author: 'Maria Santos',
-    rating: 5,
-    comment: 'The Mexican Beef Bun is a must-try! Perfectly seasoned and fresh.',
-  },
-  {
-    id: 2,
-    author: 'Juan Dela Cruz',
-    rating: 5,
-    comment: 'Best cold brew in town. Cozy atmosphere and friendly staff.',
-  },
-  {
-    id: 3,
-    author: 'Alyssa Tan',
-    rating: 4,
-    comment: 'Love the chicken pops and fries combo. Great place to study.',
-  },
-  {
-    id: 4,
-    author: 'Carlo Mendoza',
-    rating: 5,
-    comment: 'Affogato is amazing. The balance of espresso and sweetness is spot on!',
-  },
-]
 </script>
 
 <template>
   <main class="reviews-page">
     <div class="banner-wrapper">
       <img
-        src="/src/assets/photos/IMG_9952.JPG"
+        src="@/assets/photos/IMG_9952.JPG"
         alt="Beans & Buns Cafe Interior"
         class="banner-image"
       />
@@ -51,7 +24,7 @@ const reviews = [
         </div>
         <div class="summary-details">
           <p class="summary-title">Customer Rating</p>
-          <p class="summary-meta">Based on actual people,</p>
+          <p class="summary-meta">Based on reviews from local coffee lovers</p>
         </div>
       </div>
     </section>
@@ -59,11 +32,27 @@ const reviews = [
     <section class="reviews-section">
       <div class="reviews-grid">
         <ReviewCard
-          v-for="item in reviews"
-          :key="item.id"
-          :author="item.author"
-          :rating="item.rating"
-          :comment="item.comment"
+          author="Maria Santos"
+          rating="5"
+          comment="The Mexican Beef Bun is a must-try! Perfectly seasoned and fresh."
+        />
+
+        <ReviewCard
+          author="Juan Dela Cruz"
+          rating="5"
+          comment="Best cold brew in town. Cozy atmosphere and friendly staff."
+        />
+
+        <ReviewCard
+          author="Alyssa Tan"
+          rating="4"
+          comment="Love the chicken pops and fries combo. Great place to study."
+        />
+
+        <ReviewCard
+          author="Carlo Mendoza"
+          rating="5"
+          comment="Affogato is amazing. The balance of espresso and sweetness is spot on!"
         />
       </div>
     </section>
