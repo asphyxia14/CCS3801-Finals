@@ -103,7 +103,6 @@ import { RouterLink } from 'vue-router'
   font-weight: 700;
   text-decoration: none;
   border-radius: 12px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
 }
 
@@ -119,22 +118,6 @@ import { RouterLink } from 'vue-router'
   color: #ffffff;
   backdrop-filter: blur(8px);
   border: 2px solid rgba(245, 235, 225, 0.3);
-}
-
-/* Edge Highlight Hover Effect */
-.hero-btn:hover {
-  transform: translateY(-3px);
-  border-color: #ffffff; /* Highlights the edge */
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 0 10px 25px rgba(0, 0, 0, 0.3);
-}
-
-.primary-btn:hover {
-  background-color: #ffffff;
-  color: #2b1810;
-}
-
-.secondary-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive adjustments */

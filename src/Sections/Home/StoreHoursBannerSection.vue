@@ -104,11 +104,5 @@ h2 {
   font-style: italic;
   color: #bcaaa4;
 }
-
-/* Simple hover effect to make it interactive */
-.banner-content:hover {
-  border-color: #d7ccc8;
-  transition: 0.3s;
-}
 </style>
 

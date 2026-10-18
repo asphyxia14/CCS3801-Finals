@@ -92,12 +92,6 @@ function goToPage(path: string) {
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.nav-link:hover {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 640px) {

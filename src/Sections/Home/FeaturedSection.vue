@@ -55,14 +55,8 @@
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 4px 14px rgba(43, 24, 16, 0.05);
-  transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
-}
-
-.special-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 22px rgba(43, 24, 16, 0.1);
 }
 
 .image-wrapper {

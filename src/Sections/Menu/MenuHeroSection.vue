@@ -87,16 +87,7 @@ function scrollToSection(sectionId: string) {
   font-size: 0.95rem;
   font-family: inherit;
   cursor: pointer;
-  transition: all 0.2s ease;
   box-shadow: 0 2px 6px rgba(43, 24, 16, 0.04);
-}
-
-.category-pill:hover {
-  background-color: #c86d27;
-  color: #ffffff;
-  border-color: #c86d27;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(200, 109, 39, 0.25);
 }
 
 @media (max-width: 600px) {

@@ -31,29 +31,13 @@ import ReviewCard from '@/components/ReviewCard.vue'
 
     <section class="reviews-section">
       <div class="reviews-grid">
-        <ReviewCard
-          author="Maria Santos"
-          rating="5"
-          comment="The Mexican Beef Bun is a must-try! Perfectly seasoned and fresh."
-        />
+        <ReviewCard author="Francyn Pe" rating="5" comment="Perfect." />
 
-        <ReviewCard
-          author="Juan Dela Cruz"
-          rating="5"
-          comment="Best cold brew in town. Cozy atmosphere and friendly staff."
-        />
+        <ReviewCard author="Matthew Sto Tomas" rating="5" comment="Good coffee." />
 
-        <ReviewCard
-          author="Alyssa Tan"
-          rating="4"
-          comment="Love the chicken pops and fries combo. Great place to study."
-        />
+        <ReviewCard author="Alyssa Tan" rating="4" comment="Nice place to study." />
 
-        <ReviewCard
-          author="Carlo Mendoza"
-          rating="5"
-          comment="Affogato is amazing. The balance of espresso and sweetness is spot on!"
-        />
+        <ReviewCard author="Deejay Israel" rating="5" comment="Namit ah" />
       </div>
     </section>
   </main>

@@ -31,13 +31,6 @@ defineProps<{
   box-shadow: 0 4px 14px rgba(43, 24, 16, 0.05);
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.item-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(43, 24, 16, 0.1);
-  border-color: #dfcfc2;
 }
 
 .item-image-wrapper {
@@ -51,11 +44,6 @@ defineProps<{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.item-card:hover .item-image {
-  transform: scale(1.03);
 }
 
 .item-body {

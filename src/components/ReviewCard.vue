@@ -40,13 +40,6 @@ defineProps<{
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.review-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(43, 24, 16, 0.09);
-  border-color: #dfcfc2;
 }
 
 .review-header {

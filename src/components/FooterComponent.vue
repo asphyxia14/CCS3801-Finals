@@ -6,21 +6,20 @@
       <div class="footer-col brand-col">
         <h3 class="footer-brand">Beans & Buns</h3>
         <p class="brand-text">
-          Fresh gourmet hotdog buns & specialty handcrafted coffee. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
+          Fresh gourmet hotdog buns & specialty handcrafted coffee in iloilo city.
         </p>
       </div>
 
       <div class="footer-col">
         <h4 class="col-title">Hours & Location</h4>
         <p>Mon - Sun: 8:00 AM - 10:00 PM</p>
-        <p>Lorem ipsum street, City, Country</p>
+        <p>I402-C Lopez Jaena St, Jaro, Iloilo City, 5000 Iloilo</p>
       </div>
 
       <div class="footer-col">
         <h4 class="col-title">Contact</h4>
         <p>Email: hello@beansandbuns.com</p>
-        <p>Phone: +1 (234) 567-890</p>
+        <p>Phone: 0968 381 8247</p>
       </div>
     </div>
 
