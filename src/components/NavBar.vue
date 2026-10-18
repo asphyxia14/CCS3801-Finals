@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="nav-brand">
-      <img src="@/assets/photos/bnblogo.jpg" alt="logo" class="logo" />
+      <img src="../assets/photos/b&b.jpg" alt="B&B Logo" class="store-logo" />
     </div>
     <ul class="nav-menu">
       <li class="nav-item">
@@ -13,6 +13,9 @@
       <li class="nav-item">
         <a href="/about" class="nav-link">About</a>
       </li>
+        <li class="nav-item">
+            <a href="/reviews" class="nav-link">Reviews</a>
+        </li>
       <li class="nav-item">
         <a href="/contact" class="nav-link">Contact</a>
       </li>
@@ -36,9 +39,8 @@
   align-items: center;
 }
 
-.nav-brand h1 {
-  color: #d7ccc8;
-  margin: 0;
+.nav-brand img {
+  height: 50px;
 }
 
 .logo {
