@@ -2,7 +2,6 @@
 <template>
   <section class="about" id="about">
 
-    <!-- Hero Section -->
     <div class="hero">
       <img class="logo" src="@/assets/photos/bnblogo.jpg" alt="Beans and Buns logo" />
 
@@ -11,7 +10,6 @@
       <img class="front" src="@/assets/photos/MAINFRONT.jpg" alt="FRONT" />
     </div>
 
-    <!-- Our Story -->
     <div class="story">
       <h2>Our story</h2>
       <p>
@@ -21,13 +19,11 @@
       </p>
     </div>
 
-    <!-- Welcome Section -->
     <div class="welcome">
       <h2>Your favorite little pause in the day.</h2>
       <p>Come in, settle down, and stay awhile.</p>
     </div>
 
-    <!-- 2x2 Picture Grid -->
     <div class="features">
 
       <div class="feature">
@@ -74,7 +70,6 @@
   color: #2b1810;
 }
 
-/* Hero Section */
 .hero {
   grid-column: 1 / 3;
   height: 65vh;
@@ -116,7 +111,6 @@
   z-index: 1;
 }
 
-/* Story and Welcome */
 .story,
 .welcome {
   padding: 30px;
@@ -131,7 +125,6 @@
   background: #f5ebe1;
 }
 
-/* Picture Grid */
 .features {
   grid-column: 1 / 3;
   display: grid;
@@ -156,7 +149,6 @@
   object-fit: cover;
 }
 
-/* Text on Picture */
 .feature-text {
   position: relative;
   padding: 20px;
@@ -171,7 +163,6 @@
   margin: 0;
 }
 
-/* Mobile Layout */
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 32px;

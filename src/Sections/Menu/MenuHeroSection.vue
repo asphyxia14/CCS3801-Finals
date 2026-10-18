@@ -15,7 +15,6 @@ const categories = [
         Explore our gourmet hotdog buns baked fresh daily, perfectly paired with artisanal espresso and savory sides.
       </p>
 
-      <!-- Category Navigation Pills -->
       <nav class="category-nav">
         <a
           v-for="cat in categories"

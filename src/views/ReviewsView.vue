@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import ReviewCard from '@/components/ReviewCard.vue'
 
-// Sample reviews data
 const reviews = [
   {
     id: 1,
@@ -32,7 +31,6 @@ const reviews = [
 
 <template>
   <main class="reviews-page">
-    <!-- Top Hero Banner with Image -->
     <div class="banner-wrapper">
       <img
         src="/src/assets/photos/IMG_9952.JPG"
@@ -45,7 +43,6 @@ const reviews = [
       </div>
     </div>
 
-    <!-- Rating Summary Badge -->
     <section class="summary-section">
       <div class="summary-card">
         <div class="summary-score-group">
@@ -59,7 +56,6 @@ const reviews = [
       </div>
     </section>
 
-    <!-- Reviews Grid -->
     <section class="reviews-section">
       <div class="reviews-grid">
         <ReviewCard
@@ -81,7 +77,6 @@ const reviews = [
   padding: 24px 16px 48px;
 }
 
-/* BANNER */
 .banner-wrapper {
   position: relative;
   width: 100%;
@@ -127,7 +122,6 @@ const reviews = [
   color: #f5ebe1;
 }
 
-/* SUMMARY BADGE */
 .summary-section {
   display: flex;
   justify-content: center;
@@ -185,7 +179,6 @@ const reviews = [
   font-size: 0.85rem;
 }
 
-/* REVIEWS GRID */
 .reviews-section {
   margin-top: 16px;
 }
@@ -196,7 +189,6 @@ const reviews = [
   gap: 20px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 600px) {
   .banner-wrapper {
     height: 220px;

@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
+    path: '/',
+    redirect: '/home',
+  },
+  {
     path: '/home',
     name: 'home',
     component: () => import('../views/HomeView.vue'),
@@ -9,7 +13,7 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: () => import('../views/ReviewsView.vue'),
+    component: () => import('../views/AboutView.vue'),
   },
   {
     path: '/menu',
@@ -24,7 +28,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: () => import('../views/ReviewsView.vue'),
+    component: () => import('../views/ContactView.vue'),
   },
 ]
 
