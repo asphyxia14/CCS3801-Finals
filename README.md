@@ -1,3 +1,54 @@
+# Contributions:
+
+- Francyn - AboutView, ContactView
+- Matyu - MenuView, ReviewsView, Components
+- DJ - HomeView, Navbar
+
+# TODO
+
+# VIEWS
+
+- [ ] HomeView [Deejay]
+- [ ] MenuView [Matthew]
+- [ ] AboutView [Francyn]
+- [ ] ReviewsView [Matthew]
+- [ ] ContactView [Francyn]
+- [ ] Components [Matthew, Deejay]
+
+# SECTIONS
+
+## HOME (HomeView.vue)
+
+- HeroSection.vue
+- FeaturedSpecialsSection.vue
+- AboutTeaserSection.vue
+- StoreHoursBanner.vue
+
+## MENU (MenuView.vue)
+
+- MenuHeroSection.vue
+- BunsSection.vue
+- SidesSection.vue # Tacos, Fries, Chicken pops
+- BeveragesSection.vue # Coffee & Fruit drinks
+- DessertsSection.vue # Affogato & Sweets
+- CombosSection.vue # Bun + Drink pairings
+
+## ABOUT (AboutView.vue)
+
+- AboutHeroSection.vue
+- HistoryStorySection.vue
+- CraftIngredientsSection.vue
+- MeetTheTeamSection.vue
+- VibeGallerySection.vue
+
+# REUSABLE COMPONENTS
+
+- [ ] Navbar.vue
+- [x] Footer.vue
+- [x] ItemCard.vue # Used across Menu & Featured sections
+- [x] ReviewCard.vue # Used for testimonials
+- [x] BaseButton.vue
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.

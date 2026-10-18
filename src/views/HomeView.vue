@@ -1,11 +1,15 @@
 <script setup lang="ts">
-import FeaturedSection from '@/Sections/Home/FeaturedSection.vue'
-import HeroSection from '@/Sections/Home/HeroSection.vue'
+import NavBar from '@/components/NavBar.vue';
+import StoreHoursBannerSection from '@/Sections/Home/StoreHoursBannerSection.vue';
+
 </script>
 
+
+
 <template>
-  <section>
-    <HeroSection />
-    <FeaturedSection />
-  </section>
+  <div class="home">
+    <NavBar />
+    <StoreHoursBannerSection />
+  </div>
 </template>
+
